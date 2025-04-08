@@ -1,0 +1,86 @@
+.header-outer-container {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 630px) {
+  .header-outer-container {
+    display: none;
+  }
+}
+
+.header-main-container {
+  display: flex;
+  gap: 50px;
+  padding: 20px 20px;
+  align-items: center;
+}
+
+.header-main-light-container {
+  color: #010414;
+  display: flex;
+  gap: 50px;
+  padding: 20px 20px;
+  align-items: center;
+  background-color: #faf8fc;
+}
+
+.header-main-container h1 {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.tab {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.active-tab {
+  opacity: 1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dark-text {
+  color: #faf8fc;
+  font-size: 15px;
+}
+
+.light-text {
+  color: #010414;
+  font-size: 15px;
+}
+
+.logout-button {
+  background-color: #faf8fc;
+  color: #010414;
+  font-weight: bold;
+  padding: 10px;
+  width: 80px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.logout-light-button {
+  background-color: #010414;
+  color: #faf8fc;
+  font-weight: bold;
+  padding: 10px;
+  width: 80px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.logout-button:hover {
+  background-color: #c9c8c8;
+}
+
+a{
+  text-decoration: none;
+}

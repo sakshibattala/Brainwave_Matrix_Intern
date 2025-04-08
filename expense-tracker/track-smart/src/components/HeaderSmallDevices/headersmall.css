@@ -1,0 +1,35 @@
+.header-small-devices-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 631px) {
+  .header-small-devices-container {
+    display: none;
+  }
+}
+
+.header-small-devices-inner-container {
+  display: flex;
+  gap: 40px;
+  padding: 20px 20px;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+}
+
+.dark-smalldevice-icon,
+.light-smalldevice-icon {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.dark-smalldevice-icon {
+  color: #faf8fc;
+}
+
+.light-smalldevice-icon {
+  color: #010414;
+}

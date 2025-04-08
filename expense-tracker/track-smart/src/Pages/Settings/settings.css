@@ -1,0 +1,66 @@
+.settings-outer-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.settings-inner-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.settings-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.dark-clear-all-button,
+.light-clear-all-button {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  width: 120px;
+}
+
+.dark-clear-all-button {
+  color: #010414;
+  background-color: #faf8fc;
+}
+
+.light-clear-all-button {
+  color: #faf8fc;
+  background-color: #010414;
+}
+
+.each-setting-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email-id {
+  font-size: 20px;
+}
+
+.error-data-cleared-msg {
+  color: #010414;
+  background-color: #faf8fc;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}

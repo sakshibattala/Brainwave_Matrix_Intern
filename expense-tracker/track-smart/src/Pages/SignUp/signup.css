@@ -1,0 +1,166 @@
+.signup-page-outer-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+}
+
+.signup-form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border: 0.5px solid #f1f1f1;
+  border-radius: 8px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signup-form-light-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border: 0.5px solid #010414;
+  border-radius: 8px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.dark-email-input {
+  background-color: transparent;
+  border: 0.2px solid #f1f1f1;
+  outline: none;
+  padding: 9px;
+  border-radius: 5px;
+  color: #f1f1f1;
+}
+
+.light-email-input {
+  background-color: transparent;
+  border: 0.2px solid #010414;
+  outline: none;
+  padding: 9px;
+  border-radius: 5px;
+  color: #010414;
+}
+
+.signup-button {
+  background-color: #faf8fc;
+  color: #010414;
+  font-weight: bold;
+  padding: 10px;
+  width: 80px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+}
+
+.signup-light-button {
+  background-color: #010414;
+  color: #faf8fc;
+  font-weight: bold;
+  padding: 10px;
+  width: 80px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+}
+
+.login-text {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 8px 8px;
+
+}
+
+.login-light-text {
+  color: #010414;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 8px 8px;
+ 
+}
+
+.login-light-text:hover {
+  color: #c76044;
+}
+
+.login-text:hover {
+  color: #c76044;
+}
+
+.password-dark-container {
+  width: 100%;
+  border: 0.2px solid #f1f1f1;
+  border-radius: 5px;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.password-light-container {
+  width: 100%;
+  border: 0.2px solid #010414;
+  border-radius: 5px;
+  color: #010414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.dark-password-input {
+  border: none !important;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  color: #faf8fc;
+}
+
+.light-password-input {
+  border: none !important;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  color: #010414;
+}
+
+.password-icon {
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 10px;
+}

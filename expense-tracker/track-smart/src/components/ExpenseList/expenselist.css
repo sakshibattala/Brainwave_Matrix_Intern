@@ -1,0 +1,154 @@
+.expenselist-container,
+.expense-list-light-container {
+  background-color: transparent;
+  margin-top: 24px;
+  width: 100%;
+  overflow-x: auto; /* horizontal scroll on small screens */
+}
+
+.list-heading,
+.list-light-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.list-heading {
+  color: #fafcf8;
+}
+
+.list-light-heading {
+  color: #010414;
+}
+
+/* Wrap the table for horizontal scroll */
+.expense-table,
+.expense-light-table {
+  width: 100%;
+  min-width: 600px; /* so that table doesn't squish on small screens */
+  border-collapse: collapse;
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1px solid #eee;
+  padding: 12px 16px;
+  text-align: left;
+  color: #fafcf8;
+  font-size: 14px;
+}
+
+.expense-light-table th,
+.expense-light-table td {
+  border: 1px solid #010414;
+  padding: 12px 16px;
+  text-align: left;
+  color: #010414;
+  font-size: 14px;
+}
+
+.expense-table th {
+  font-weight: 500;
+  color: #fafcf8;
+}
+
+.expense-light-table th {
+  font-weight: 500;
+  color: #010414;
+}
+
+.edit-btn,
+.delete-btn,
+.edit-light-btn,
+.delete-light-btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.edit-btn {
+  color: #fafcf8;
+}
+
+.edit-light-btn {
+  color: #010414;
+}
+
+.delete-btn {
+  color: #fafcf8;
+}
+
+.delete-light-btn {
+  color: #010414;
+}
+
+/* Responsive adjustments for screens up to 630px */
+@media screen and (max-width: 630px) {
+  .list-heading {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .expense-table th,
+  .expense-table td {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+  color: #010414;
+}
+
+.modal input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #010414;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.modal-buttons button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #010414;
+  color: #fafcf8;
+  font-family: "Poppins", sans-serif;
+}

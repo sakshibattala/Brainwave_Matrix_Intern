@@ -77,21 +77,6 @@ To run this project locally:
    npm start
 
 4. **Visit http://localhost:3000 in your browser**
- 
-
-📂 Project Structure
-
-track-smart/
-├── src/
-│   ├── components/    # Reusable UI components
-│   ├── context/       # Context providers
-│   ├── pages/         # Application pages
-│   ├── styles/        # CSS files
-│   ├── utils/         # Helper functions
-│   ├── App.js         # Main application
-│   └── index.js       # Entry point
-├── public/            # Static assets
-└── package.json       # Project dependencies
 
 
 📝 Notes

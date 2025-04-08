@@ -6,6 +6,10 @@ This project was built during my internship at **Brainwave Matrix Solutions** an
 
 ---
 
+## 🚀 Live Project
+
+Check it out here 👉 [Track Smart](https://track-smart.vercel.app/)
+
 ## 🧠 Purpose of the App
 
 Track Smart allows users to:
